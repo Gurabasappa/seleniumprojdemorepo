@@ -18,7 +18,7 @@ public class DemoWebshopComparePrice
 		driver.findElement(By.xpath("//a[@href='/login']")).click();
 		Thread.sleep(1000);
 		driver.findElement(By.xpath("//input[@id='Email']")).sendKeys("gurupatilf@gmail.com");
-		Thread.sleep(1000);
+		Thread.sleep(2000);
 		driver.findElement(By.xpath("//input[@id='Password']")).sendKeys("Guru@12345");
 		Thread.sleep(1000);
 		driver.findElement(By.xpath("//input[@value='Log in']")).click();
